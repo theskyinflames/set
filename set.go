@@ -38,9 +38,8 @@ func (s *Set) Iterator() (iterator Iterator) {
 		if c < len(items) {
 			item = items[c]
 			c++
-		} else {
-			lastItem = true
 		}
+		lastItem = c == len(items)
 		return
 	}
 	return

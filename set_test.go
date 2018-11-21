@@ -262,7 +262,7 @@ func TestSet_Iterator(t *testing.T) {
 				item, end := iterator()
 				t.Logf("retrieved item : %v, ok: %t", item, end)
 				if end {
-					if c != 2 {
+					if c != 1 {
 						t.Errorf("iterated wrong number of items, got %d, wanted 2", c)
 					}
 					break
