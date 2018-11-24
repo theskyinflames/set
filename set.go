@@ -7,7 +7,7 @@ import (
 
 var (
 	ErrAlreadyExists   error = errors.New("item already exists")
-	ErrKeyDoesNotExist error = errors.New("key does not exists")
+	ErrKeyDoesNotExist error = errors.New("key does not exist")
 )
 
 type (
